@@ -1,0 +1,65 @@
+.succes, .error{
+    color: white;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+}
+.succes{
+    background-color: green;
+    border-radius: 5px;
+}
+.error{
+    background-color: red;
+    border-radius: 5px;
+}
+.delete{
+    color: red; 
+    text-decoration: none; 
+    border: 1px solid red; 
+    border-radius: 2px; 
+    padding: 7px;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+    transition: ease-in-out 0.3s background-color;
+}
+#submit-btn{
+    outline: black;
+}
+#submit-btn:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.3s background-color;
+}
+@keyframes example {
+    0%   {opacity: 0; left: 30; top: 30;}
+    100% {opacity: 1; left: 0; top: 0;}
+  }
+  
+  /* The element to apply the animation to */
+  div {
+    animation-name: example;
+    animation-duration: 1s;
+  }
+#title:hover{
+    border-color: black;
+    transition: ease-in-out 0.3s border-color;
+}
+#author:hover{
+    border-color: black;
+    transition: ease-in-out 0.3s border-color;
+}
+#isbn:hover{
+    border-color: black;
+    transition: ease-in-out 0.3s border-color;
+}
+@keyframes example {
+    0%   {opacity: 0; left: 30; top: 30;}
+    100% {opacity: 1; left: 0; top: 0;}
+  }
+  
+  /* The element to apply the animation to */
+  tr {
+    animation-name: example;
+    animation-duration: 1.5s;
+  }
